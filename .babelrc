@@ -1,5 +1,4 @@
 {
-    "presets": ["@babel/preset-env"],
-    "outDir": "build"
-  }
+    "presets": ["@babel/preset-env"]
+   }
   
