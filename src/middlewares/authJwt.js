@@ -60,5 +60,6 @@ for(let i=0; i < roles.length; i ++){
         return;
     }
 }
+return res.status(403).json({message: "Requiere ser administrador o moderador"});
 
 }
